@@ -1,0 +1,86 @@
+public interface Stack {
+    void Push(int x);
+    int Pop();
+    int Peek();
+    boolean IsEmpty();
+    int GetLength();
+}
+public class MyStack extends MyDoublyLinkedList implements Stack {
+    // Implementing methods from Stack interface
+    @Override
+    public void Push(int x) {
+        // Add element to the stack
+        // Implementation specific to MyDoublyLinkedList
+    }
+
+    @Override
+    public int Pop() {
+        // Remove and return top element from the stack
+        // Implementation specific to MyDoublyLinkedList
+        return 0; // Placeholder return value
+    }
+
+    @Override
+    public int Peek() {
+        // Return top element without removing it
+        // Implementation specific to MyDoublyLinkedList
+        return 0; // Placeholder return value
+    }
+
+    @Override
+    public boolean IsEmpty() {
+        // Check if the stack is empty
+        // Implementation specific to MyDoublyLinkedList
+        return false; // Placeholder return value
+    }
+
+    @Override
+    public int GetLength() {
+        // Return the number of elements in the stack
+        // Implementation specific to MyDoublyLinkedList
+        return 0; // Placeholder return value
+    }
+}
+public interface Queue {
+    void Enqueue(int x);
+    int Dequeue();
+    int Peek();
+    boolean IsEmpty();
+    int GetLength();
+}
+public class MyQueue extends MyDoublyLinkedList implements Queue {
+    // Implementing methods from Queue interface
+    @Override
+    public void Enqueue(int x) {
+        // Add element to the queue
+        // Implementation specific to MyDoublyLinkedList
+    }
+
+    @Override
+    public int Dequeue() {
+        // Remove and return front element from the queue
+        // Implementation specific to MyDoublyLinkedList
+        return 0; // Placeholder return value
+    }
+
+    @Override
+    public int Peek() {
+        // Return front element without removing it
+        // Implementation specific to MyDoublyLinkedList
+        return 0; // Placeholder return value
+    }
+
+    @Override
+    public boolean IsEmpty() {
+        // Check if the queue is empty
+        // Implementation specific to MyDoublyLinkedList
+        return false; // Placeholder return value
+    }
+
+     @Override 
+     public int GetLength() { 
+       /// Return length of queue 
+       /// Implementation specific to MyDoublyLinkeList 
+       return 0; 
+      } 
+}
